@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Investigaciones</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS  local-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Poncho CSS -->
+    <link rel="stylesheet" href="css/poncho.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/miargentina.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/documentacion.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/poncho.min.css" />
+    <link rel="stylesheet" href="poncho-master/dist/icono-arg.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/roboto-fontface.css" />
+    <link rel="stylesheet" href="poncho-master/_site/iconos_files/icono-arg.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/miargentina.css" />
+    <link rel="stylesheet" href="poncho-master/_site/css/docs.css " />
+    <link rel="stylesheet" href="poncho-master/_site/css/poncho_lab.css" />
+    <link rel="stylesheet" href="poncho-master/_site/css/prism.css" />
+    <link rel="stylesheet" href="poncho-master/src/css/poncho.css" />
+    <link rel="stylesheet" href="poncho-master/src/css/modules/_jumbotron.scss" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon-100x100.png" sizes="32x32" />
+    <link rel="icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon.png" />
+    <!--
+        <link rel="stylesheet" href="poncho-master/dist/css/poncho_mobile.css" />
+        <link rel="stylesheet" href="poncho-master/dist/css/ponchito.css" />
+        
+        <link rel="stylesheet" href="poncho-master/src/css/ponchito.css" />
+        <link rel="stylesheet" href="poncho-master/src/css/poncho_mobile.css" />
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    -->
+
+</head>
+
+<body>
+    <!-----------------------------BANER COVID--------------------->
+    <div class="covid">
+        <a href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19">
+            <span class="text-covid"><span class="fontw">Coronavirus COVID-19 </span>Conocé información y recomendaciones del Ministerio de Salud</span>
+
+        </a>
+    </div>
+    <!------------------------------JUMBOTRON --------------------->
+    <section class="jumbotron hero" style="background-image: url('images/pexels-pixabay-358319.jpg');">
+        <div class="jumbotron_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb pull-left">
+                            <li><a href="https://www.argentina.gob.ar/">Argentina / </a></li>
+                            <li class="active"><a href="https://www.argentina.gob.ar/transporte"><span>Ministerio de Transporte / </span></a></li>
+                            <li class="active"><span> Junta de Seguridad en el Transporte (JST)</span></li>
+
+                            <li class="active"><span></span></li>
+
+                        </ol>
+                        <ul class="list-inline pull-right">
+                            <li><a href="https://www.argentina.gob.ar/jst/transparencia" class="search"><i class="glyphicon glyphicon-search"></i>Transparencia</a></li>
+                            <li><a href="https://www.argentina.gob.ar/jst/institucional">Institucional</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <h2>Aviación</h2>
+            <span>Junta de Seguridad en el Transporte</span>
+        </div>
+    </section>
+    <!--------------------------------ICONOS------------------------------->
+    <div class="icons-wrapper">
+        <div class="row atajos container-center">
+            <div class="row numbers margin-icons">
+                <div class="col-md-4">
+                    <a href="https://www.argentina.gob.ar/jst/aviacion">
+                        <div class="circle-bg">
+                            <i class="fas fa-plane icon-atajo plane-rotate"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Aéreo</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4">
+                    <a href="https://www.argentina.gob.ar/jst/ferroviario">
+                        <div class="circle-bg">
+                            <i class="fas fa-train icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Ferroviario</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/maritimo">
+                        <div class="circle-bg">
+                            <i class="fas fa-ship icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Marítimo, Fluvial y Lacustre</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/automotor">
+                        <div class="circle-bg">
+                            <i class="fas fa-road icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Automotor</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/multimodal">
+                        <div class="circle-bg">
+                            <i class="fas fa-globe-asia icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Multimodal</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/automotor">
+                        <div class="circle-bg">
+                            <i class="icono-arg-coronavirus icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7 class="title-size">Investigación COVID-<br>19</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------REDES SOCIALES --------------------------->
+
+    <div class="vertical-margin container-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-sm-offset-2">
+                    <h1 class="">Investigaciones e informes de seguridad</h1>
+                    <div class="redes-wrapper">
+                        <a>
+                            <i class="fab fa-facebook-f text-primary icon"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-twitter text-primary icon"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-linkedin-in text-primary icon"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-whatsapp text-primary icon"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-telegram-plane text-primary icon"></i>
+                        </a>
+                    </div>
+                    <p>Las investigaciones técnicas que realiza la JST tienen como objetivo bajar la tasa de accidentes de aviación evitando la repetición de sucesos a través de la difusión de informes de seguridad y el seguimiento de recomendaciones, promoviendo
+                        mejoras en la Seguridad Operacional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------BODY --------------------------------------->
+
+    <div class="horizontal-margin">
+        <div class="row bg-color">
+            <div class="col-sm-6 ">
+                <div class="wrapper-descargas ">
+                    <div class="padding-cards">
+                        <div class="categorias-text">
+                            <h4 class="black">Información sobre seguridad</h4>
+                            <p><span>Datos acumulados al 28/12/2020 en comparación con el mismo período del año anterior.</span></p>
+                            <div class="full">
+                                <a href="#">
+                                    <button type="button" class="button- btn-primary">Más info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="sucesos-wrapper">
+                    <div id="flechas" class="numbers-wrappper margin-auto">No hay datos para mostrar</div>
+                    <script>
+                        var d = {
+                            "accidentes_fatales": {
+                                "Commercial Air Transport": [0, 0],
+                                "Illegal": [0, 0],
+                                "Nationally Regulated Operations (State Operations)": [0, 0],
+                                "Non-Commercial Operations": [0, 0],
+                                "Specialised Operations": [0, 0],
+                                "Unknown": [0, 0]
+                            },
+                            "fatalidades": {
+                                "Commercial Air Transport": [0, 0],
+                                "Illegal": [0, 0],
+                                "Nationally Regulated Operations (State Operations)": [0, 0],
+                                "Non-Commercial Operations": [3, 4],
+                                "Specialised Operations": [0, 0],
+                                "Unknown": [0, 0]
+                            },
+                            "destruidas": {
+                                "Commercial Air Transport": [0, 0],
+                                "Illegal": [0, 0],
+                                "Nationally Regulated Operations (State Operations)": [0, 0],
+                                "Non-Commercial Operations": [2, 2],
+                                "Specialised Operations": [0, 0],
+                                "Unknown": [0, 0]
+                            },
+                            "sucesos": {
+                                "Commercial Air Transport": [1, 4],
+                                "Illegal": [0, 0],
+                                "Nationally Regulated Operations (State Operations)": [0, 0],
+                                "Non-Commercial Operations": [9, 13],
+                                "Specialised Operations": [0, 0],
+                                "Unknown": [1, 0]
+                            },
+                            "accidentes": {
+                                "Commercial Air Transport": [0, 0],
+                                "Illegal": [0, 0],
+                                "Nationally Regulated Operations (State Operations)": [0, 0],
+                                "Non-Commercial Operations": [6, 9],
+                                "Specialised Operations": [0, 0],
+                                "Unknown": [0, 0]
+                            },
+                            "diff-sucesos": [11, 17],
+                            "diff-accidentes": [6, 9]
+                        };
+                        var tf = {
+                                'Aviación general': 'ag',
+                                'Trabajo aéreo': 'ta',
+                                'Comercial': 'co'
+                            },
+                            tt = {
+                                'accidentes_fatales': 'Accidentes fatales',
+                                'sucesos': 'Sucesos',
+                                'accidentes': 'Accidentes'
+                            };
+                        jQuery('#flechas').html('');
+                        var lst = ['diff-sucesos', 'diff-accidentes', 'accidentes_fatales'];
+                        for (var k in lst) {
+                            var i = lst[k];
+                            var total = [0, 0];
+                            if (i == 'accidentes_fatales') {
+                                for (var j in d[i]) {
+                                    total[0] += d[i][j][0];
+                                    total[1] += d[i][j][1];
+                                }
+                            } else {
+                                total = d[i];
+                                i = i.split('-')[1];
+                            }
+                            var el = jQuery(
+                                    '<div class="numbers-wrappper margin-auto ">' +
+                                        '<div class=" flecha row numbers ">' +
+                                            '<div class="container-number bg-white padding-arrows ">' +
+                                                '<h2 class="center"><i class="fas fa-arrow-down icon-arrow" id="arrow-icon"></i></h2>' +
+                                                '<div class="titulo text-icon"></div>' +
+                                                '<div><span class="actual text-icon"></span> (<span class="diff"></span>)</div>' +
+                                            '</div>' +
+                                        '</div>' +
+                                    '</div>'  
+                                ),
+                                item = jQuery('#flechas'),
+                                diff = total[0] - total[1];
+                            el.find('.titulo').text(tt[i]);
+                            el.find('.actual').text(total[0]);
+                            if (diff < 0) {
+                                el.find('.flecha').addClass('verde');
+                                el.find('.diff').text(diff);
+                            } else if (diff > 0) {
+                                el.find('.flecha').addClass('rojo');
+                                el.find('#arrow-icon').addClass('grados');
+                                el.find('.diff').text('+' + diff);
+                            } else {
+                                el.find('.diff').text(diff);
+                                el.find('#arrow-icon').removeClass('fas fa-arrow-down').addClass('fas fa-equals');
+                            }
+                            item.append(el);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h2 class="">Últimas investigaciones</h2>
+        <div class=" table table-responsive">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Suceso</th>
+                                <th>Lugar</th>
+                                <th>Fase</th>
+                                <th>Aeronave</th>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Matrícula</th>
+                                <th>Expediente</th>
+                            </tr>
+                        </thead>
+                        <tbody class="list ">
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">182</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a href="#">
+            <button type="button" class="button- btn-primary">Más informes</button>
+        </a>
+        <br>
+        <br>
+        
+        <h2 class="">Últimas intervenciones</h2>
+        <div class=" table table-responsive">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Suceso</th>
+                                <th>Lugar</th>
+                                <th>Fase</th>
+                                <th>Aeronave</th>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Matrícula</th>
+                                <th>Expediente</th>
+                            </tr>
+                        </thead>
+                        <tbody class="list ">
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">182</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="fecha">22/10/2020</td>
+                                <th scope="Suceso">Intervención</th>
+                                <td class="lugar">Aeropuerto San Fernando (Buenos Aires)</td>
+                                <td class="fase">Rodaje a plataforma</td>
+                                <td class="aeronave">Avión</td>
+                                <td class="marca">CESSNA</td>
+                                <td class="modelo">Alpha Trainer</td>
+                                <td class="matrícula">PU-MPR</td>
+                                <td class="expendiente">88987466/2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a href="#">
+            <button type="button" class="button- btn-primary">Listado de intervenciones</button>
+        </a>
+    </div>
+    <!--------------------------------FOOTER ---------------------------------->
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 ">
+                    <div class="footer_blog full white_fonts">
+                        <h3 class="padding-top">Trámites</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/turnos">
+                            <p class="black">Turnos</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/jefatura/innovacion-publica/administrativa/tramites-a-distancia">
+                            <p class="back">Trámites a distancia</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/miargentina/mesadeayuda">
+                            <p class="back">Atención al ciudadano</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="footer_blog full white_fonts padding-bottom">
+                        <h3 class="padding-top">Acerca de la República Argentina</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/pais">
+                            <p class="black">Nuentro país</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/normativa">
+                            <p class="back">Leyes argentinas</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/organismos">
+                            <p class="back">Organismos</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/jefatura/mapa-del-estado">
+                            <p class="black">Mapa del Estado</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="footer_blog full white_fonts">
+                        <h3 class="padding-top">Acerca de Argentina.gob.ar</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/acerca">
+                            <p class="black">Acerca de este sitio</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/terminos-y-condiciones">
+                            <p class="back">Términos y condiciones</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/sugerencias">
+                            <p class="back">Sugerencias</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer_bottom celeste ">
+        <div class="container celeste ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="image-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e758643b16.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
