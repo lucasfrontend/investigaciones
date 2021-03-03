@@ -69,7 +69,7 @@
 }
 
 .pull-left {
-    float:left;
+    float: left;
     margin-right: .3em
 }
 
@@ -101,6 +101,11 @@
 	text-align: center;
 	align-items: center;
 	*/
+}
+
+.container-icons {
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .container-center {
@@ -188,7 +193,6 @@
     padding-right: 10px;
 }
 
-
 .icon {
     font-size: 2rem;
     padding: 10px;
@@ -274,7 +278,6 @@
 
 /*----------investigaciones------------*/
 
-
 .padding-arrows {
     padding: 1rem;
 }
@@ -316,7 +319,6 @@
 
 
 /*---------Estadísticas-----------------*/
-
 
 .overf {
     overflow: hidden;
